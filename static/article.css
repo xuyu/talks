@@ -130,7 +130,11 @@ div.output .buttons {
 
 #toc ul, #toc a {
 	list-style-type: none;
-	padding-left: 10px;
-	color: black;
+	padding-left: 6px;
 	margin: 0px;
+	font-size: 15px;
+}
+
+#toc ul li {
+	margin: 4px 0px;
 }
