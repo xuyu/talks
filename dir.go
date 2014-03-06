@@ -256,6 +256,8 @@ written by <a href="mailto:xuyu16@gmail.com">xuyu&lt;xuyu16@gmail.com&gt;</a>
 </p>
 
 </div>
-
+<link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400italic,700italic,900italic' rel='stylesheet' type='text/css'>
 </body>
 </html>`

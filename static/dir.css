@@ -67,22 +67,24 @@ h4,
 	font-weight: bold;
 }
 h1 {
-	font-size: 24px;
+	font-size: 2em;
+	font-weight: 900;
 }
 h2 {
-	font-size: 20px;
+	font-size: 1.8em;
 	background: #E0EBF5;
 	padding: 2px 5px;
 }
 h3 {
-	font-size: 20px;
+	font-size: 1.5em;
 }
 h3,
 h4 {
 	margin: 20px 5px;
 }
 h4 {
-	font-size: 16px;
+	font-size: 1.2em;
+	font-weight: 700;
 }
 
 dl {
@@ -93,7 +95,8 @@ dd {
 }
 dl,
 dd {
-	font-size: 16px;
+	font-size: 1em;
+	font-weight: 400;
 }
 div#nav table td {
 	vertical-align: top;
@@ -102,12 +105,13 @@ div#nav table td {
 div#heading {
 	float: left;
 	margin: 0 0 10px 0;
-	padding: 21px 0;
-	font-size: 24px;
-	font-weight: normal;
+	padding: 12px 0;
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Dancing Script', cursive;
 }
 div#heading a {
-	color: #222;
+	color: rgba(170, 23, 100, 0.9);
 	text-decoration: none;
 }
 
@@ -118,6 +122,12 @@ div#topbar {
 
 body {
 	text-align: center;
+}
+div#page{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: 24px;
+	font-weight: 700;
 }
 div#page,
 div#topbar > .container {
@@ -138,8 +148,14 @@ div#plusone {
 
 div#footer {
 	color: #666;
-	font-size: 14px;
+	font-size: 13px;
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
 	margin: 40px 0;
+}
+
+div#footer p {
+	margin: 10px;
 }
 
 div#menu > a,
