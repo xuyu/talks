@@ -1,7 +1,8 @@
 body {
 	margin: 0;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 16px;
+	font-weight: 400;
 }
 pre,
 code {
@@ -28,7 +29,7 @@ h1, h2, h3, h4 {
 	margin: 20px 0;
 	padding: 0;
 	color: #375EAB;
-	font-weight: bold;
+	font-weight: 400;
 }
 h1 {
 	font-size: 24px;
@@ -51,9 +52,9 @@ h4 {
 div#heading {
 	float: left;
 	margin: 0 0 10px 0;
-	padding: 21px 0;
-	font-size: 20px;
-	font-weight: normal;
+	padding: 6px 0;
+	font-size: 32px;
+	font-weight: 300;
 }
 
 div#topbar {
