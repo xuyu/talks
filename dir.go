@@ -207,9 +207,6 @@ const dirListHTML = `<!DOCTYPE html>
  </div>
 
 <div id="page">
-
-  <h1>Talks</h1>
-
   {{with .Path}}<h2>{{.}}</h2>{{end}}
 
   {{with .Articles}}
@@ -231,7 +228,6 @@ const dirListHTML = `<!DOCTYPE html>
   {{end}}
 
   {{with .Dirs}}
-  <h4>Sub-directories:</h4>
   <dl>
   {{range .}}
   <dd><a href="/{{.Path}}">{{.Name}}</a></dd>
@@ -247,7 +243,7 @@ Except as <a href="http://code.google.com/policies.html#restrictions">noted</a>,
 the content of this page is licensed under the
 Creative Commons Attribution 3.0 License,
 and code is licensed under a <a href="/LICENSE">BSD license</a>.<br>
-<a href="http://golang.org/doc/tos.html">Terms of Service</a> | 
+<a href="http://golang.org/doc/tos.html">Terms of Service</a> |
 <a href="http://www.google.com/intl/en/policies/privacy/">Privacy Policy</a>
 
 <p>

@@ -96,7 +96,6 @@ dd {
 }
 dl,
 dd {
-	font-size: 0.85em;
 	font-weight: 400;
 }
 div#nav table td {
@@ -111,7 +110,8 @@ div#heading {
 	font-weight: 300;
 }
 div#heading a {
-	color: rgba(170, 23, 100, 0.9);
+  font-weight: 400;
+	color: rgba(52, 49, 134, 0.9);
 	text-decoration: none;
 }
 
